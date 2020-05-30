@@ -121,11 +121,11 @@ COPY Mail.py .
     <img src="SS/mail.PNG">
     <img src="SS/MAIL OUT.PNG">
     
- -Job6:
+ - Job6:
     ### If container is running and fails due to any reason then Jenkins automatically start the container again.
     <img src="SS/job6 code.PNG">
   
-   **- Job6 run successfully container is working fine.**
+    **- Job6 run successfully container is working fine.**
    <img src="SS/job6 out.PNG">
 
 
