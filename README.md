@@ -81,7 +81,7 @@ COPY Mail.py .
     <img src="SS/job2.PNG">
 
 
-    **- Job2 run successfully, created docker container image keras:v1**
+    **- Job2 run successfully, created docker container image - keras:v1**
     <img src="SS/job2 out.PNG">
       
  - Job3:
