@@ -59,8 +59,7 @@ COPY Mail.py .
 
 # Step 2:
 **Now Jenkins play's an important role to integrate docker, Machine Leaning and GitHub.**
-
-# - Job1:
+ - Job1:
     ## When developer push repository to Github. Jenkins Pull the Github repository automatically in Jenkins workspace and copy that in base OS system. 
 
 
@@ -76,7 +75,7 @@ COPY Mail.py .
 
 
 
-# - Job2:
+ - Job2:
     ## Creating a container image in docker using Dockerfile.
     <img src="SS/job2.PNG">
 
@@ -84,7 +83,7 @@ COPY Mail.py .
     *- Job2 run successfully, created docker container image keras:v1*
     <img src="SS/job2 out.PNG">
       
-# - Job3:
+ - Job3:
     ## By looking at the code or program file, Jenkins automatically start the respective container that has already installed all the software’s required for processing the code.
     <img src="SS/job3.PNG">
     
@@ -96,7 +95,7 @@ COPY Mail.py .
  
  
 
-# - Job4:
+ - Job4:
     ## Execute the code, train the model and predict the accuracy. If metrics accuracy is less than 95%, then it will tweak the machine learning model architecture.
     <img src="SS/job4.PNG">
     
@@ -112,7 +111,7 @@ COPY Mail.py .
      <img src="SS/job4 out5.PNG">
 
 
-# - Job5:
+ - Job5:
     ## When model give the desired accuracy it will notify the developer that your model is being created with desired accuracy.
     <img src="SS/job5.PNG">
     
@@ -121,7 +120,7 @@ COPY Mail.py .
     <img src="SS/mail.PNG">
     <img src="SS/MAIL OUT.PNG">
     
-# -Job6:
+ -Job6:
     ## If container is running and fails due to any reason then Jenkins automatically start the container again.
     <img src="SS/job6.PNG">
   
