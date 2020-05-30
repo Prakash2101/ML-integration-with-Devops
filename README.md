@@ -108,7 +108,7 @@ COPY Mail.py .
     <img src="SS/job4 out3.PNG">
     **- Congratulations !!! we got the desired accuracy.**
     <img src="SS/job4 out4.PNG">
-    **- Finally model gave the accuracy arround 96%.**
+    **- Finally model gave the accuracy above 96%.**
      <img src="SS/job4 out5.PNG">
 
 
