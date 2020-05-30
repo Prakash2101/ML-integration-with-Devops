@@ -59,72 +59,73 @@ COPY Mail.py .
 
 # Step 2:
 **Now Jenkins play's an important role to integrate docker, Machine Leaning and GitHub.**
+ 
  - Job1:
-    ## When developer push repository to Github. Jenkins Pull the Github repository automatically in Jenkins workspace and copy that in base OS system. 
+    ### When developer push repository to Github. Jenkins Pull the Github repository automatically in Jenkins workspace and copy that in base OS system. 
 
 
     ![](SS/Job1a.PNG)
 
 
-    **- Here I used poll scm to pull the repository from GitHub.*
+    **- Here I used poll scm to pull the repository from GitHub.**
     <img src="SS/job1b.PNG">
 
 
-    ## Job1 run successfully: 
+    ### Job1 run successfully: 
     <img src="SS/job1 out.PNG">
 
 
 
  - Job2:
-    ## Creating a container image in docker using Dockerfile.
+    ### Creating a container image in docker using Dockerfile.
     <img src="SS/job2.PNG">
 
 
-    *- Job2 run successfully, created docker container image keras:v1*
+    **- Job2 run successfully, created docker container image keras:v1**
     <img src="SS/job2 out.PNG">
       
  - Job3:
-    ## By looking at the code or program file, Jenkins automatically start the respective container that has already installed all the software’s required for processing the code.
+    ### By looking at the code or program file, Jenkins automatically start the respective container that has already installed all the software’s required for processing the code.
     <img src="SS/job3.PNG">
     
     
     
-    *- Job3 run successfully, created new container name deep_learning.*
+    **- Job3 run successfully, created new container name deep_learning.**
     <img src="SS/job3 out.PNG">
  
  
  
 
  - Job4:
-    ## Execute the code, train the model and predict the accuracy. If metrics accuracy is less than 95%, then it will tweak the machine learning model architecture.
+    ### Execute the code, train the model and predict the accuracy. If metrics accuracy is less than 95%, then it will tweak the machine learning model architecture.
     <img src="SS/job4.PNG">
     
-    *- Downloading NMIST dataset from internet:*
+    **- Downloading NMIST dataset from internet:**
     <img src="SS/job4 out1.PNG">
-    *- Alert!!! we got very less accuracy, not to worry it will tweak the machine learning model architecture.*
+    **- Alert!!! we got very less accuracy, not to worry it will tweak the machine learning model architecture.**
     <img src="SS/job4 out2.PNG">
-    *- Alert again !!! we got very less accuracy, not to worry it will tweak the machine learning model architecture.*
+    **- Alert again !!! we got very less accuracy, not to worry it will tweak the machine learning model architecture.**
     <img src="SS/job4 out3.PNG">
-    *- Congratulations !!! we got the desired accuracy.*
+    **- Congratulations !!! we got the desired accuracy.**
     <img src="SS/job4 out4.PNG">
-    *- Finally model gave the accuracy arround 96%.*
+    **- Finally model gave the accuracy arround 96%.**
      <img src="SS/job4 out5.PNG">
 
 
  - Job5:
-    ## When model give the desired accuracy it will notify the developer that your model is being created with desired accuracy.
+    ### When model give the desired accuracy it will notify the developer that your model is being created with desired accuracy.
     <img src="SS/job5.PNG">
     
-    *- Mail sent succesfully to developer.*
+    **- Mail sent succesfully to developer.**
     <img src="SS/job5 out.PNG">
     <img src="SS/mail.PNG">
     <img src="SS/MAIL OUT.PNG">
     
  -Job6:
-    ## If container is running and fails due to any reason then Jenkins automatically start the container again.
+    ### If container is running and fails due to any reason then Jenkins automatically start the container again.
     <img src="SS/job6.PNG">
   
-    *- Job6 run successfully container is working fine.*
+    **- Job6 run successfully container is working fine.**
     <img src="SS/job6 out.PNG">
 
 
@@ -134,4 +135,4 @@ COPY Mail.py .
 
 
 
-# For powerfull monitoring and management of container we can integrate this project with kubernetes. I will surely enhance this project in future.
+# For powerfull monitoring and management of container we can integrate this project with kubernetes. In future I will surely enhance this project more.
