@@ -7,7 +7,7 @@ The goal of any Machine Learning Project is to train a model with high accuracy,
 
 So for all this challenges we can take the help DevOps. When Machine Learning is integrated with DevOps our manual work become automated, work become so easy that you have to just give one command it will do all your task. Now you don’t have to monitor anything DevOps will notify you when task is completed and now you can engage yourself in other work.
 
-**In this practical you will come to know how we can integrate Machine Learning with Devops tools i.e. GitHub, Jenkins, Docker.For the practical I am using Base OS REHL – 8 on top of my windows using virtualization technology. Jenkins and Docker is installed in REHL – 8. There is a network connectivity between windows and RHEL – 8 so I am going to use Jenkins in windows chrome. I am using MNIST dataset for this practical.**
+**In this practical you will come to know how we can integrate Machine Learning with Devops tools i.e. GitHub, Jenkins, Docker.For the practical I am using Base OS RHEL–8 on top of my windows using virtualization technology. Jenkins and Docker is installed in RHEL–8. There is a network connectivity between windows and RHEL – 8 so I am going to use Jenkins in windows chrome. I am using MNIST dataset for this practical.**
 
 
 
