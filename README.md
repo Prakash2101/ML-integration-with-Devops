@@ -123,10 +123,10 @@ COPY Mail.py .
     
  -Job6:
     ### If container is running and fails due to any reason then Jenkins automatically start the container again.
-    <img src="SS/job6.PNG">
+    <img src="SS/job-6.PNG">
   
-    **- Job6 run successfully container is working fine.**
-    <img src="SS/job6 out.PNG">
+   **- Job6 run successfully container is working fine.**
+   <img src="SS/job6 out.PNG">
 
 
 ## All Jenkins Job run successfully and we can view in job pipeline.
